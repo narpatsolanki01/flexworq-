@@ -1,0 +1,39 @@
+{
+  "name": "lnb-summer-internship-dashboard-api",
+  "version": "1.0.0",
+  "description": "This is a simple API for the LNB Summer Internship Dashboard",
+  "main": "index.js",
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "jwt",
+    "mongodb",
+    "authentication",
+    "passport",
+    "joi",
+    "mongoose",
+    "auth"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Learn And Build",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.1",
+    "razorpay": "^2.9.2"
+  }
+}

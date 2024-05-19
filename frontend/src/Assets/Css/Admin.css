@@ -1,0 +1,54 @@
+#wrapper {
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    color: #344A5D;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+body.flx-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    body.flx-sidenav-toggled #wrapper #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+
+#sidebar-wrapper a.active{
+    background-color:#D7EDDF;
+    color:#000;
+}
+#sidebar-wrapper a{
+    font-size: 13px;
+}
+#sidebar-wrapper a:hover{
+    background-color:#D7EDDF;
+    color: #000;
+}
